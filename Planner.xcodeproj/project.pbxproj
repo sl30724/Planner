@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261709C629355F07000055BD /* TaskItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261709C429355F07000055BD /* TaskItem+CoreDataClass.swift */; };
+		261709C729355F07000055BD /* TaskItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261709C529355F07000055BD /* TaskItem+CoreDataProperties.swift */; };
 		2651841229284FFD00287295 /* PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651841129284FFD00287295 /* PlannerApp.swift */; };
 		2651841429284FFD00287295 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651841329284FFD00287295 /* ContentView.swift */; };
 		2651841629284FFD00287295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2651841529284FFD00287295 /* Assets.xcassets */; };
 		2651841929284FFD00287295 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2651841829284FFD00287295 /* Preview Assets.xcassets */; };
 		2651841B29284FFD00287295 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651841A29284FFD00287295 /* Persistence.swift */; };
 		2651841E29284FFD00287295 /* Planner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2651841C29284FFD00287295 /* Planner.xcdatamodeld */; };
+		26796E902937ECD200D56782 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26796E8F2937ECD200D56782 /* EditView.swift */; };
+		26FBB54029285228002C2103 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBB53F29285228002C2103 /* ViewRouter.swift */; };
+		26FBB5422928525E002C2103 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBB5412928525E002C2103 /* TaskView.swift */; };
+		26FBB5442928528F002C2103 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBB5432928528F002C2103 /* CheckInView.swift */; };
+		26FBB54829285633002C2103 /* AddPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FBB54729285633002C2103 /* AddPopUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		261709C429355F07000055BD /* TaskItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		261709C529355F07000055BD /* TaskItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2651840E29284FFD00287295 /* Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2651841129284FFD00287295 /* PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerApp.swift; sourceTree = "<group>"; };
 		2651841329284FFD00287295 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		2651841A29284FFD00287295 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2651841D29284FFD00287295 /* Planner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Planner.xcdatamodel; sourceTree = "<group>"; };
 		2651841F29284FFD00287295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26796E8F2937ECD200D56782 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		26FBB53F29285228002C2103 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		26FBB5412928525E002C2103 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		26FBB5432928528F002C2103 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+		26FBB54729285633002C2103 /* AddPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPopUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,8 @@
 		2651840529284FFD00287295 = {
 			isa = PBXGroup;
 			children = (
+				261709C429355F07000055BD /* TaskItem+CoreDataClass.swift */,
+				261709C529355F07000055BD /* TaskItem+CoreDataProperties.swift */,
 				2651841029284FFD00287295 /* Planner */,
 				2651840F29284FFD00287295 /* Products */,
 			);
@@ -56,6 +72,9 @@
 		2651841029284FFD00287295 /* Planner */ = {
 			isa = PBXGroup;
 			children = (
+				26FBB53F29285228002C2103 /* ViewRouter.swift */,
+				26FBB5412928525E002C2103 /* TaskView.swift */,
+				26FBB5432928528F002C2103 /* CheckInView.swift */,
 				2651841129284FFD00287295 /* PlannerApp.swift */,
 				2651841329284FFD00287295 /* ContentView.swift */,
 				2651841529284FFD00287295 /* Assets.xcassets */,
@@ -63,6 +82,8 @@
 				2651841F29284FFD00287295 /* Info.plist */,
 				2651841C29284FFD00287295 /* Planner.xcdatamodeld */,
 				2651841729284FFD00287295 /* Preview Content */,
+				26FBB54729285633002C2103 /* AddPopUp.swift */,
+				26796E8F2937ECD200D56782 /* EditView.swift */,
 			);
 			path = Planner;
 			sourceTree = "<group>";
@@ -145,9 +166,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FBB54029285228002C2103 /* ViewRouter.swift in Sources */,
+				261709C729355F07000055BD /* TaskItem+CoreDataProperties.swift in Sources */,
+				26796E902937ECD200D56782 /* EditView.swift in Sources */,
+				26FBB5442928528F002C2103 /* CheckInView.swift in Sources */,
 				2651841E29284FFD00287295 /* Planner.xcdatamodeld in Sources */,
 				2651841B29284FFD00287295 /* Persistence.swift in Sources */,
+				26FBB5422928525E002C2103 /* TaskView.swift in Sources */,
+				261709C629355F07000055BD /* TaskItem+CoreDataClass.swift in Sources */,
 				2651841429284FFD00287295 /* ContentView.swift in Sources */,
+				26FBB54829285633002C2103 /* AddPopUp.swift in Sources */,
 				2651841229284FFD00287295 /* PlannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
