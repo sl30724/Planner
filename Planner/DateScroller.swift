@@ -20,10 +20,21 @@ struct DateScroller: View {
             {
                 Image(systemName: "arrow.left")
             }
-            Text(dateFormatted())
-                .font(.headline)
-                .animation(.none)
-                .frame(maxWidth: .infinity)
+            
+            DatePicker(
+                "\(dateFormatted())",
+                selection: $dateHolder.viewDate,
+                displayedComponents: .date
+                )
+            .frame(maxWidth: .infinity)
+            .labelsHidden()
+            .font(.headline)
+            .padding()
+            .environmentObject(dateHolder)
+            .onChange(of: dateHolder.viewDate) { newValue in
+                dateHolder.refreshTaskItems(viewContext)
+            }
+
             Button(action: moveForward)
             {
                 Image(systemName: "arrow.right")

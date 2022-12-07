@@ -74,6 +74,7 @@ struct TaskView: View {
                         .cornerRadius(10)
                 }
             .onDelete(perform: delete)
+            .background(Color.clear)
             .listRowSeparator(.hidden)
             .listSectionSeparator(.hidden)
             .listRowBackground(Color.clear)
@@ -81,6 +82,7 @@ struct TaskView: View {
             .environmentObject(dateHolder)
             
         }
+        .background(Color.clear)
         .sheet(isPresented: $editSheet) {
             Text("Edit sheet")
                 .presentationDetents([.fraction(0.45)])
@@ -101,21 +103,6 @@ struct TaskView: View {
             print(error.localizedDescription)
         }
     }
-    
-//    func loadItemsFromDate(at date: Date) -> [TaskItem] {
-//        let request: NSFetchRequest<TaskItem> = TaskItem.fetchRequest()
-//        let startDate = Calendar.current.startOfDay(for: date)
-//        var components = DateComponents()
-//        components.day = 1
-//        components.second = -1
-//        let endDate = Calendar.current.date(byAdding: components, to: startDate)!
-//        request.predicate = NSPredicate(format: "date >=%@ AND date<=%@", startDate as CVarArg, endDate as CVarArg)
-//        request.sortDescriptors = [NSSortDescriptor(key: "date", ascending: true)]
-//        do {return try viewContext.fetch(request)
-//        } catch {
-//            print("Error fetching data from context")
-//        }
-//        }
     
 }
 
