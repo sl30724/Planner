@@ -73,7 +73,6 @@ struct TaskView: View {
                         .cornerRadius(10)
                 }
             .onDelete(perform: delete)
-            .background(Color.clear)
             .listRowSeparator(.hidden)
             .listSectionSeparator(.hidden)
             .listRowBackground(Color.clear)
@@ -82,7 +81,7 @@ struct TaskView: View {
             
         }
         .scrollContentBackground(.hidden)
-        .background(Color.clear)
+//        .background(Color.clear)
         .sheet(isPresented: $editSheet) {
             Text("Edit sheet")
                 .presentationDetents([.fraction(0.45)])

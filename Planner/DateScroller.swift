@@ -39,7 +39,9 @@ struct DateScroller: View {
             {
                 Image(systemName: "arrow.right")
             }
-        }.padding()
+        }
+        .padding()
+        .background(Color(.systemGray5))
     }
     
     func dateFormatted() -> String
