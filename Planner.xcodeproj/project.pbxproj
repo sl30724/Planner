@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		261709C629355F07000055BD /* TaskItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261709C429355F07000055BD /* TaskItem+CoreDataClass.swift */; };
 		261709C729355F07000055BD /* TaskItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261709C529355F07000055BD /* TaskItem+CoreDataProperties.swift */; };
+		26517A27293FF7DA00B87104 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26517A26293FF7DA00B87104 /* DateHolder.swift */; };
+		26517A2929401C8400B87104 /* DateScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26517A2829401C8400B87104 /* DateScroller.swift */; };
 		2651841229284FFD00287295 /* PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651841129284FFD00287295 /* PlannerApp.swift */; };
 		2651841429284FFD00287295 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651841329284FFD00287295 /* ContentView.swift */; };
 		2651841629284FFD00287295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2651841529284FFD00287295 /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		261709C429355F07000055BD /* TaskItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskItem+CoreDataClass.swift"; sourceTree = "<group>"; };
 		261709C529355F07000055BD /* TaskItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		26517A26293FF7DA00B87104 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		26517A2829401C8400B87104 /* DateScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScroller.swift; sourceTree = "<group>"; };
 		2651840E29284FFD00287295 /* Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2651841129284FFD00287295 /* PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerApp.swift; sourceTree = "<group>"; };
 		2651841329284FFD00287295 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				2651841729284FFD00287295 /* Preview Content */,
 				26FBB54729285633002C2103 /* AddPopUp.swift */,
 				26796E8F2937ECD200D56782 /* EditView.swift */,
+				26517A26293FF7DA00B87104 /* DateHolder.swift */,
+				26517A2829401C8400B87104 /* DateScroller.swift */,
 			);
 			path = Planner;
 			sourceTree = "<group>";
@@ -173,9 +179,11 @@
 				2651841E29284FFD00287295 /* Planner.xcdatamodeld in Sources */,
 				2651841B29284FFD00287295 /* Persistence.swift in Sources */,
 				26FBB5422928525E002C2103 /* TaskView.swift in Sources */,
+				26517A27293FF7DA00B87104 /* DateHolder.swift in Sources */,
 				261709C629355F07000055BD /* TaskItem+CoreDataClass.swift in Sources */,
 				2651841429284FFD00287295 /* ContentView.swift in Sources */,
 				26FBB54829285633002C2103 /* AddPopUp.swift in Sources */,
+				26517A2929401C8400B87104 /* DateScroller.swift in Sources */,
 				2651841229284FFD00287295 /* PlannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

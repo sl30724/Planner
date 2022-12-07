@@ -4,7 +4,7 @@
 //
 //  Created by Sandy Lee on 11/30/22.
 //
-
+//
 //import SwiftUI
 //
 //struct EditView: View {
@@ -26,8 +26,8 @@
 //    }()
 //    
 //    var task: TaskItem
-//    var ogTitle: String = ""
-//    var ogDate: Date
+//    var ogTitle: String = task.name
+//    var ogDate: Date = task.date
 //    var ogStart: Date
 //    var ogEnd: Date
 //    
