@@ -15,7 +15,7 @@ struct DateScroller: View {
     {
         HStack
         {
-            Spacer()
+//            Spacer()
             Button(action: moveBack)
             {
                 Image(systemName: "arrow.left")
@@ -39,7 +39,7 @@ struct DateScroller: View {
             {
                 Image(systemName: "arrow.right")
             }
-        }
+        }.padding()
     }
     
     func dateFormatted() -> String

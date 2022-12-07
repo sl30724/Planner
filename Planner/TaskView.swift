@@ -33,7 +33,6 @@ struct TaskView: View {
     
     var body: some View {
         DateScroller()
-            .padding()
             .environmentObject(dateHolder)
         
         List{
@@ -82,6 +81,7 @@ struct TaskView: View {
             .environmentObject(dateHolder)
             
         }
+        .scrollContentBackground(.hidden)
         .background(Color.clear)
         .sheet(isPresented: $editSheet) {
             Text("Edit sheet")
